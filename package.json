@@ -1,0 +1,39 @@
+{
+  "name": "hurdle",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "vitest run",
+    "data:fetch": "python3 scripts/fetch_data.py",
+    "data:build": "python3 scripts/build_data.py",
+    "data:validate": "python3 scripts/validate_data.py",
+    "check": "npm run data:validate && npm test && npm run build",
+    "data:fetch:2026": "python3 scripts/fetch_2026.py",
+    "data:freeze": "python3 scripts/freeze_catalog.py",
+    "data:shapes": "node scripts/build_shapes.mjs"
+  },
+  "dependencies": {
+    "@fontsource/barlow-condensed": "^5.2.5",
+    "@fontsource/dm-sans": "^5.2.5",
+    "d3-geo": "^3.1.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "topojson-client": "^3.1.0",
+    "world-atlas": "^2.0.2"
+  },
+  "devDependencies": {
+    "@types/d3-geo": "^3.1.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@types/topojson-client": "^3.1.5",
+    "@vitejs/plugin-react": "^4.5.0",
+    "axe-core": "^4.13.0",
+    "typescript": "~5.9.2",
+    "vite": "^6.3.5",
+    "vitest": "^3.2.4"
+  }
+}

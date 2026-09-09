@@ -1,0 +1,58 @@
+{
+  "retrievedAt": "2026-09-08",
+  "geography": {
+    "url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
+    "sha256": "99b85dda36895c79caf72e191d035e4b9d82e811ee34f9ca15dfa67d7c561ba8",
+    "license": "ODbL-1.0"
+  },
+  "historicalFlags": {
+    "urlTemplate": "https://olympedia-flags.s3.eu-central-1.amazonaws.com/{code}.svg",
+    "files": [
+      "AHO.svg",
+      "ANZ.svg",
+      "BOH.svg",
+      "EUN.svg",
+      "FRG.svg",
+      "GDR.svg",
+      "RHO.svg",
+      "SCG.svg",
+      "TCH.svg",
+      "UAR.svg",
+      "URS.svg",
+      "WIF.svg",
+      "YUG.svg"
+    ]
+  },
+  "official2026Books": [
+    {
+      "code": "ALP",
+      "url": "https://wmr-static-assets.scd.dgplatform.net/wmr/static/_PDF/PWG2026/ALP/Results_Book_ALP.pdf",
+      "sha256": "11133c9faa42c49519505e04feb4c89c1c07546f1a545a0c428286c89bce1f61"
+    },
+    {
+      "code": "BTH",
+      "url": "https://wmr-static-assets.scd.dgplatform.net/wmr/static/_PDF/PWG2026/BTH/Results_Book_BTH.pdf",
+      "sha256": "9cc55f077b7ba617ba76d3d5a9e34e64fe0c64f120228695997fb4b08997497e"
+    },
+    {
+      "code": "CCS",
+      "url": "https://wmr-static-assets.scd.dgplatform.net/wmr/static/_PDF/PWG2026/CCS/Results_Book_CCS.pdf",
+      "sha256": "4e1eb332ca8e808ab6cbab5989211fd2f685a89883d365b075b694816c679502"
+    },
+    {
+      "code": "CUR",
+      "url": "https://wmr-static-assets.scd.dgplatform.net/wmr/static/_PDF/PWG2026/CUR/Results_Book_CUR.pdf",
+      "sha256": "c79e2fc21ee30da92eb1d507bf93347a4b9ca3caa0fff3bdb86e2d469163cceb"
+    },
+    {
+      "code": "IHO",
+      "url": "https://wmr-static-assets.scd.dgplatform.net/wmr/static/_PDF/PWG2026/IHO/Results_Book_IHO.pdf",
+      "sha256": "c5835fa636155ff588021f4b438215ce93436287a82dec39e3a71c2e13b2d389"
+    },
+    {
+      "code": "SBD",
+      "url": "https://wmr-static-assets.scd.dgplatform.net/wmr/static/_PDF/PWG2026/SBD/Results_Book_SBD.pdf",
+      "sha256": "1cf343f0692aac25d758a0a2ccb15aeee653a88cf1ec1daee6e0d605881db937"
+    }
+  ]
+}

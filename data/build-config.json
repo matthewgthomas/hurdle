@@ -1,0 +1,6 @@
+{
+  "version": "1.0.0",
+  "effectiveFrom": "2026-09-08",
+  "file": "data/catalog-v1.json",
+  "report": "data/validation-report.json"
+}
