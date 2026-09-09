@@ -36,3 +36,11 @@ Browser QA used Chrome on macOS with desktop and mobile viewport sizes. Real iOS
 The Pages workflow and production base path are delivered and locally verified. The repository owner controls publication; the live GitHub Pages deployment has not been run here.
 
 The historical archive’s unresolved breakdown discrepancies are documented in `data/README.md` and the validation report. They are deliberately suppressed in gameplay rather than presented as invented or zero-valued statistics.
+
+## Typography update — 9 September 2026
+
+- Shared rem sizes provide 16px main copy and form controls, 14px supporting content, and a 12px minimum for compact labels at the default browser font size. Display headings and prominent figures increased by approximately 10%.
+- All eight clue families, autocomplete, expanded guesses, help, statistics, and credits checked at 320, 390, 768, and 1440 CSS pixels. Computed sizes meet the intended minimums with no horizontal document overflow.
+- Historical losses and United States wins checked at all four widths, including large medal totals, both profile competitions, expanded edition tables, and the sharing fallback. Text-range checks found no text extending outside cards or dialogs; edition tables retain their own scroll container.
+- The 200% desktop zoom reflow was emulated with a 720 CSS-pixel viewport for a 1440-pixel display; native browser zoom controls and physical mobile devices were not exercised.
+- All 22 existing tests and the final production build pass. Typography screenshots and temporary browser-check scripts are under the ignored `output/playwright/readability-*` paths.
