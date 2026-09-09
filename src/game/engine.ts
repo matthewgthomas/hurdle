@@ -124,7 +124,7 @@ const percent = (part: number, total: number) => total ? Math.round(part / total
 export const winterShare = (record: SportingRecord) => percent(sum(record.winter), recordTotal(record));
 export const womenShare = (record: SportingRecord) => record.categories ? percent(record.categories.w, recordTotal(record)) : null;
 
-export const CLUE_TITLES: Record<ClueKind, string> = { cabinet: 'A cabinet of clues.', sports: 'Their home advantage.', seasons: 'Summer or snow?', timeline: 'A history of podiums.', mix: 'Who takes the podium?', breakthrough: 'A moment in history.', region: 'A little closer to home.', identity: 'The final stretch.' };
+export const CLUE_TITLES: Record<ClueKind, string> = { cabinet: 'A cabinet of clues.', sports: 'Where they shine', seasons: 'Summer or snow?', timeline: 'A history of podiums.', mix: 'Who takes the podium?', breakthrough: 'A moment in history.', region: 'A little closer to home.', identity: 'The final stretch.' };
 export const CLUE_LABELS: Record<ClueKind, string> = { cabinet: 'Medal cabinet', sports: 'Signature sports', seasons: 'Summer or snow', timeline: 'Podium timeline', mix: 'Event mix', breakthrough: 'Breakthrough', region: 'Around the world', identity: 'The final clue' };
 
 export function compareClue(clue: Clue, target: Team, guess: Team): Comparison {
