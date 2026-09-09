@@ -171,5 +171,5 @@ export function shareText(state: GameState, url: string): string {
   const status = outcome(state);
   const score = status === 'won' ? state.attempts.length : 'X';
   const marks = state.attempts.map(a => a.teamId === state.puzzle.targetId ? '🟩' : a.teamId === null ? '⬜' : '🟥');
-  return `Hurdle ${state.puzzle.mode === 'daily' ? '#' + state.puzzle.number : 'Practice'} · ${score}/6\n${marks.join('')}\nOne country. Six hurdles.\n${url}`;
+  return `Hurdle ${state.puzzle.mode === 'daily' ? '#' + state.puzzle.number : 'Practice'} · ${score}/6\n${marks.join('')}\nSix hurdles. One country.\n${url}`;
 }
